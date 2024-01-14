@@ -1,0 +1,75 @@
+[
+        {
+            "command": "create_user",
+            "username": "Alice",
+            "age": 25,
+            "gender": "Female"
+        },
+        {
+            "command": "create_user",
+            "username": "Alice",
+            "age": 25,
+            "gender": "Female"
+        },
+        {
+            "command": "create_user",
+            "username": "Bob",
+            "age": 28,
+            "gender": "Male"
+        },
+        {
+            "command": "create_user",
+            "username": "Tom",
+            "age": 35,
+            "gender": "Male"
+        },
+        {
+            "command": "insert_vital",
+            "username": "Alice",
+            "vital_id": "HeartRate",
+            "value": 75,
+            "timestamp": "2023-10-01T12:30:00Z"
+        },
+        {
+            "command": "insert_vital",
+            "username": "Alice",
+            "vital_id": "Temperature",
+            "value": 98.6,
+            "timestamp": "2023-10-02T12:30:00Z"
+        },
+        {
+            "command": "insert_vital",
+            "username": "Alice",
+            "vital_id": "HeartRate",
+            "value": 80,
+            "timestamp": "2023-10-03T14:30:00Z"
+        },
+        {
+            "command": "insert_vital",
+            "username": "Bob",
+            "vital_id": "HeartRate",
+            "value": 82,
+            "timestamp": "2023-10-01T13:30:00Z"
+        },
+        {
+            "command": "insert_vital",
+            "username": "Tom",
+            "vital_id": "HeartRate",
+            "value": 89,
+            "timestamp": "2023-10-04T15:30:00Z"
+        },
+        {
+            "command": "aggregate",
+            "username": "Alice",
+            "vital_ids": ["HeartRate", "Temperature"],
+            "start_timestamp": "2023-10-01T00:00:00Z",
+            "end_timestamp": "2023-10-31T23:59:59Z"
+        },
+        {
+            "command": "population_insight",
+            "username": "Alice",
+            "vital_id": "HeartRate",
+            "start_timestamp": "2023-10-01T00:00:00Z",
+            "end_timestamp": "2023-10-31T23:59:59Z"
+        }
+]
